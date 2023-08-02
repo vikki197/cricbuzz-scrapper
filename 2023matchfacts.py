@@ -109,7 +109,7 @@ def auto_scraper(match_url, match_id, counts):
 
 
 links_df = pd.read_csv(r'2023_match_id.csv')
-path = 'D:/pp/scrapper_commentary/2k23/'
+path = '../2k23/'
 counts = 1
 df = pd.DataFrame()
 for val in links_df['url']:
